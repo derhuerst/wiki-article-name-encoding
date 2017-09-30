@@ -24,6 +24,7 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"filename-reserved-regex": "^2.0.0",
 		"strict-uri-encode": "^2.0.0"
 	},
 	"devDependencies": {

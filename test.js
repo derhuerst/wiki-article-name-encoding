@@ -22,6 +22,11 @@ test('encode', (t) => {
 	for (let [raw, encoded] of pairs) t.equal(encode(raw), encoded)
 })
 
+test('encode – fileSave=true', (t) => {
+	t.plan(1)
+	t.equal(encode('Wikipedia:Page name', true), 'Wikipedia%3APage_name')
+})
+
 test('decode', (t) => {
 	t.plan(pairs.length)
 	for (let [raw, encoded] of pairs) t.equal(decode(encoded), raw)
