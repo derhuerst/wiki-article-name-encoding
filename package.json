@@ -1,0 +1,34 @@
+{
+	"name": "wiki-article-name-encoding",
+	"description": "Encode & decode Wiki(pedia) article names/slugs.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"wikipedia",
+		"wiki",
+		"slug",
+		"article",
+		"url-safe"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/wiki-article-name-encoding",
+	"repository": "derhuerst/wiki-article-name-encoding",
+	"bugs": "https://github.com/derhuerst/wiki-article-name-encoding/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.8.0",
+		"tap-min": "^1.2.2"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
