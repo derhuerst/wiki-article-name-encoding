@@ -1,5 +1,7 @@
 # wiki-article-name-encoding
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/wiki-article-name-encoding.svg)](https://greenkeeper.io/)
+
 **Encode & decode Wiki(pedia) article names/[slugs](https://en.wikipedia.org/wiki/Semantic_URL#Slug).** See [more details](https://en.wikipedia.org/wiki/Wikipedia:Page_name#Spaces.2C_underscores_and_character_coding).
 
 [![npm version](https://img.shields.io/npm/v/wiki-article-name-encoding.svg)](https://www.npmjs.com/package/wiki-article-name-encoding)
