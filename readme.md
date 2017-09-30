@@ -18,8 +18,29 @@ npm install wiki-article-name-encoding
 ## Usage
 
 ```js
-todo
+const {encode, decode} = require('wiki-article-name-encoding')
+
+const encoded = encode('Walentynów, Lipsko County')
+console.log(encoded) // Walentyn%C3%B3w,_Lipsko_County
+console.log(decode(encoded)) // Walentynów, Lipsko County
 ```
+
+`encode` and `decode` can also be loaded separately:
+
+```js
+const encode = require('wiki-article-name-encoding/encode')
+const decode = require('wiki-article-name-encoding/decode')
+```
+
+
+## API
+
+```js
+encode(name, fileSafe = false) => slug
+decode(slug) => name
+```
+
+If you pass `true` for `fileSafe`, `encode` will use [`filename-reserved-regex`](https://github.com/sindresorhus/filename-reserved-regex#readme) to figure out with characters *not to keep unencoded*. It will not respect [Windows reserved file names](https://github.com/sindresorhus/filename-reserved-regex#filenamereservedregexwindowsnames).
 
 
 ## Contributing
