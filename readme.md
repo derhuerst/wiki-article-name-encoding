@@ -1,6 +1,6 @@
 # wiki-article-name-encoding
 
-**Encode & decode Wiki(pedia) article names/[slugs](https://en.wikipedia.org/wiki/Semantic_URL#Slug).**
+**Encode & decode Wiki(pedia) article names/[slugs](https://en.wikipedia.org/wiki/Semantic_URL#Slug).** See [more details](https://en.wikipedia.org/wiki/Wikipedia:Page_name#Spaces.2C_underscores_and_character_coding).
 
 [![npm version](https://img.shields.io/npm/v/wiki-article-name-encoding.svg)](https://www.npmjs.com/package/wiki-article-name-encoding)
 [![build status](https://img.shields.io/travis/derhuerst/wiki-article-name-encoding.svg)](https://travis-ci.org/derhuerst/wiki-article-name-encoding)
