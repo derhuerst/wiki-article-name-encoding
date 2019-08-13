@@ -1,8 +1,9 @@
 {
 	"name": "wiki-article-name-encoding",
 	"description": "Encode & decode Wiki(pedia) article names/slugs.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"files": [
 		"index.js",
 		"encode.js",
