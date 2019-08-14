@@ -7,7 +7,8 @@
 	"files": [
 		"index.js",
 		"encode.js",
-		"decode.js"
+		"decode.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"wikipedia",
